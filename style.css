@@ -14,6 +14,25 @@ body {
     justify-content: center;
 }
 
+.contact-area {
+    display: flex;
+    margin: 5rem;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 3rem;
+    justify-content: space-between;
+    width: auto;
+}
+
+.contact-area-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-area button {
+    border: #e5e7eb solid;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -23,6 +42,7 @@ body {
 .header-links {
     flex: 0 1 350px;
     justify-content: flex-end;
+    color: #e5e7eb;
 }
 
 .content {
@@ -31,9 +51,9 @@ body {
 }
 
 .first-view-area {
+    padding: 5rem;
     display: flex;
     background-color: #1f2937;
-    padding: 3rem 1rem;
     gap: 2rem;
     color: #f9faf8;
     justify-content: center;
@@ -55,8 +75,59 @@ body {
     flex: 0 1 300px;
 }
 
+.info-area {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.info-area .title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 10rem;
+    height: auto;
+    border-radius: 16px;
+}
+
+.card .text {
+    color: #1f2937;
+    text-align: center;
+}
+
 .quote-area {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
     background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 2.25rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
 }
 
 .footer {
@@ -72,6 +143,26 @@ body {
     display: flex;
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 128px;
+    padding: 8px 16px; /* Add padding for better appearance */
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contact-area .title {
+    color: #f9faf8;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact-area .text {
+    color: #e5e7eb;
+}
 
 a {
     text-decoration: none;
